@@ -142,7 +142,7 @@ export default function BetonnyyBoyPage() {
 
       <h2 style={{ textAlign: 'center' }}>Борьба с сорняками: две попытки</h2>
       <p style={{ textAlign: 'left', maxWidth: '860px', margin: '0 auto' }}>
-        Перед укладкой геотекстиля я решил обработать почву, чтобы сорняки и борщевик не пробивались. Сначала я купил в <a href="https://www.leroymerlin.ru/" target="_blank" rel="noopener noreferrer">Лемана Про</a> пестицид для уничтожения семян в почве. Зашёл и сказал: "Дайте то, что убьёт всё, чтобы даже семена не взошли". Обработал землю. Прошла неделя — и на голой земле уже торчали новые ростки борщевика. Этот метод не сработал совсем.
+        Перед укладкой геотекстиля я решил обработать почву, чтобы сорняки и борщевик не пробивались. Сначала я купил в <a href="https://www.lemanapro.ru/" target="_blank" rel="noopener noreferrer">Лемана Про</a> пестицид для уничтожения семян в почве. Зашёл и сказал: "Дайте то, что убьёт всё, чтобы даже семена не взошли". Обработал землю. Прошла неделя — и на голой земле уже торчали новые ростки борщевика. Этот метод не сработал совсем.
       </p>
 
       <p style={{ textAlign: 'left', maxWidth: '860px', margin: '0 auto' }}>
@@ -150,7 +150,7 @@ export default function BetonnyyBoyPage() {
       </p>
 
       <p style={{ textAlign: 'left', maxWidth: '860px', margin: '0 auto' }}>
-        Для работы с химией я использовал <a href="https://www.ozon.ru/product/respirator-polnolitsevoy-fixzilla-ot-pyli-himii-dlya-pokraski-stroitelnyy-professionalnyy-3478285881/" target="_blank" rel="noopener noreferrer">полнолицевой респиратор FixZilla</a> — он защищает от пыли и химии, и <a href="https://www.ozon.ru/product/sapogi-deepdive-dlya-pohoda-ohoty-i-rybalki-1580542290/" target="_blank" rel="noopener noreferrer">сапоги DeepDive</a>, которые я купил специально для этих работ, чтобы было удобно ходить по бетонному бою и не свернуть себе ноги.
+        Для работы с химией я использовал <a href="https://www.ozon.ru/product/respirator-polnolitsevoy-fixzilla-ot-pyli-himii-dlya-pokraski-stroitelnyy-professionalnyy-3478285881/" target="_blank" rel="noopener noreferrer">полнолицевой респиратор FixZilla</a> — он защищает от пыли и химии, и <a href="https://www.ozon.ru/product/sapogi-deepdive-dlya-pohoda-ohoty-i-rybalki-1580542290/" target="_blank" rel="noopener noreferrer">сапоги DeepDive</a>, которые я купил специально для работы в грязи и обработки химией.
       </p>
 
       {/* ВИДЕО: Обработка гербицидом (почва + листья) */}
@@ -188,7 +188,7 @@ export default function BetonnyyBoyPage() {
       </p>
 
       <p style={{ textAlign: 'left', maxWidth: '860px', margin: '0 auto' }}>
-        Для работы на участке я купил <a href="https://www.ozon.ru/product/botinki-rabochie-savel-titan-4031759388/" target="_blank" rel="noopener noreferrer">рабочие ботинки SAVEL Титан</a> — они с металлическим мыском, очень качественные, в них безопасно ходить по стройплощадке.
+        Для работы на участке я купил <a href="https://www.ozon.ru/product/botinki-rabochie-savel-titan-4031759388/" target="_blank" rel="noopener noreferrer">рабочие ботинки SAVEL Титан</a> — они с металлическим мыском, очень качественные. В них безопасно ходить по бетонному бою и не свернуть себе ноги.
       </p>
 
       <figure style={{ margin: '20px 0', textAlign: 'center' }}>
