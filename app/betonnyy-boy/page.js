@@ -6,18 +6,28 @@ export default function BetonnyyBoyPage() {
       <h1>Как я укреплял участок бетонным боем вместо газона</h1>
       
       {/* ФОТО АВТОРА (header.png) — ТВОЯ ВИЗИТКА */}
-      <figure style={{ margin: '20px 0' }}>
+      <figure style={{ margin: '20px 0', textAlign: 'center' }}>
         <img 
           src="https://raw.githubusercontent.com/Bessonina/devdock-site/refs/heads/main/public/video/header.png" 
           alt="Самостройщик с дивана на фоне стройки" 
-          style={{ width: '100%', maxWidth: '600px', height: 'auto', borderRadius: '8px', display: 'block', margin: '0 auto' }} 
+          style={{ 
+            width: '100%', 
+            maxWidth: '800px', 
+            height: 'auto', 
+            maxHeight: '450px', 
+            objectFit: 'cover', 
+            borderRadius: '8px', 
+            boxShadow: '0 2px 8px rgba(0,0,0,0.1)',
+            cursor: 'pointer'
+          }} 
+          onClick={(e) => window.open(e.target.src, '_blank')}
         />
         <figcaption style={{ textAlign: 'center', fontSize: '0.9rem', color: '#555', marginTop: '8px' }}>
           Самостройщик с дивана на фоне стройки. Всё по-честному.
         </figcaption>
       </figure>
       
-      <p><strong>Всем привет!</strong> Я самостройщик с дивана. По сути, я — это ты. Потому что всё, что сделал я, сможешь сделать и ты, раз у тебя есть доступ к инетрнету, голова и руки.</p>
+      <p><strong>Всем привет!</strong> Я самостройщик с дивана. По сути, я — это ты. Потому что всё, что сделал я, сможешь сделать и ты, раз у тебя есть доступ к интернету, голова и руки.</p>
 
       <p>У меня уже был участок и дом, и этот опыт я считаю неуспешным. Я строил всё сам по роликам с одного известного видеохостинга имя которого нельзя поминать в суе, по сути, и многое там было сделано с косяками. Именно их я хочу учесть при новом строительстве.</p>
 
@@ -28,12 +38,25 @@ export default function BetonnyyBoyPage() {
 
       <p>Поэтому я решил: снимаю весь плодородный слой и засыпаю участок гравийным щебнем. Позже, если захочу газончики или клумбы, просто сделаю локальные "островки": огорожу место и завезу чернозём. А где нужно — вымощу дорожки уже под будущие постройки.</p>
 
-      <figure>
-        <video controls preload="metadata" style={{ width: '100%', maxWidth: '800px', height: 'auto', borderRadius: '8px' }}>
+      {/* ВИДЕО 1: Снятие плодородного слоя */}
+      <figure style={{ margin: '20px 0' }}>
+        <video 
+          controls 
+          preload="metadata" 
+          style={{ 
+            width: '100%', 
+            maxWidth: '800px', 
+            height: 'auto', 
+            maxHeight: '450px', 
+            borderRadius: '8px', 
+            boxShadow: '0 2px 8px rgba(0,0,0,0.1)',
+            backgroundColor: '#000'
+          }}
+        >
           <source src="https://raw.githubusercontent.com/Bessonina/devdock-site/main/public/video/snyatie_plodorodki.mp4" type="video/mp4" />
           Ваш браузер не поддерживает видео.
         </video>
-        <figcaption>Снятие плодородного слоя трактором-грейдером</figcaption>
+        <figcaption style={{ textAlign: 'center', fontSize: '0.9rem', color: '#555', marginTop: '8px' }}>Снятие плодородного слоя трактором-грейдером</figcaption>
       </figure>
 
       <h2>Почему бетонный бой, а не щебень?</h2>
@@ -43,23 +66,45 @@ export default function BetonnyyBoyPage() {
       <p>Чтобы бетонный бой не ушёл в глину, я постелил геотекстиль «Дорнит» 400-й плотности. Материал очень прочный — по нему свободно ездили КАМАЗы, трактора и краны. Всё выдержал. Я пришпилил его колышками, но они не помогли — нахлесты геотекстиля всё равно разъехались. Тогда я подумал: "Ну, ерунда", и забил. А зря, как оказалось.</p>
 
       {/* ФОТО РУЛОНОВ ДОРНИТА */}
-      <figure style={{ margin: '20px 0' }}>
+      <figure style={{ margin: '20px 0', textAlign: 'center' }}>
         <img 
           src="https://raw.githubusercontent.com/Bessonina/devdock-site/refs/heads/main/public/video/dornit_ruloni.jpg" 
           alt="Рулоны геотекстиля Дорнит на участке" 
-          style={{ width: '100%', maxWidth: '800px', height: 'auto', borderRadius: '8px', display: 'block', margin: '0 auto' }} 
+          style={{ 
+            width: '100%', 
+            maxWidth: '800px', 
+            height: 'auto', 
+            maxHeight: '450px', 
+            objectFit: 'cover', 
+            borderRadius: '8px', 
+            boxShadow: '0 2px 8px rgba(0,0,0,0.1)',
+            cursor: 'pointer'
+          }} 
+          onClick={(e) => window.open(e.target.src, '_blank')}
         />
         <figcaption style={{ textAlign: 'center', fontSize: '0.9rem', color: '#555', marginTop: '8px' }}>
           Рулоны геотекстиля «Дорнит» ждут своего часа на участке
         </figcaption>
       </figure>
 
-      <figure>
-        <video controls preload="metadata" style={{ width: '100%', maxWidth: '800px', height: 'auto', borderRadius: '8px' }}>
+      <figure style={{ margin: '20px 0' }}>
+        <video 
+          controls 
+          preload="metadata" 
+          style={{ 
+            width: '100%', 
+            maxWidth: '800px', 
+            height: 'auto', 
+            maxHeight: '450px', 
+            borderRadius: '8px', 
+            boxShadow: '0 2px 8px rgba(0,0,0,0.1)',
+            backgroundColor: '#000'
+          }}
+        >
           <source src="https://raw.githubusercontent.com/Bessonina/devdock-site/main/public/video/raskataniy_dornit.mp4" type="video/mp4" />
           Ваш браузер не поддерживает видео.
         </video>
-        <figcaption>Раскатка геотекстиля «Дорнит» по участку</figcaption>
+        <figcaption style={{ textAlign: 'center', fontSize: '0.9rem', color: '#555', marginTop: '8px' }}>Раскатка геотекстиля «Дорнит» по участку</figcaption>
       </figure>
 
       <p>Перед геотекстилем я обработал землю пестицидом. Зашёл в "Леруа Мерлен" и сказал: "Дайте то, что убьёт всё, чтобы даже семена не взошли". Это не помогло. Через неделю после обработки на голой земле уже торчали новые ростки борщевика. А потом они уже под геотекстилем умудрялись поднимать его холмиками, пока их не задавил бетонный бой.</p>
@@ -67,12 +112,24 @@ export default function BetonnyyBoyPage() {
       <h2>Процесс и машины</h2>
       <p>Бетонный бой засыпали. Трактор разровнял (10 000 рублей), потом я утрамбовал площадку катком (25 000 рублей). Соседи и проезжающие строители постоянно подходили: "Что ты тут делаешь? Мы никогда не видели, чтобы на личном участке так делали". Я шутил: "Парковку делаю". А потом объяснял, что не хочу газон.</p>
 
-      <figure>
-        <video controls preload="metadata" style={{ width: '100%', maxWidth: '800px', height: 'auto', borderRadius: '8px' }}>
+      <figure style={{ margin: '20px 0' }}>
+        <video 
+          controls 
+          preload="metadata" 
+          style={{ 
+            width: '100%', 
+            maxWidth: '800px', 
+            height: 'auto', 
+            maxHeight: '450px', 
+            borderRadius: '8px', 
+            boxShadow: '0 2px 8px rgba(0,0,0,0.1)',
+            backgroundColor: '#000'
+          }}
+        >
           <source src="https://raw.githubusercontent.com/Bessonina/devdock-site/main/public/video/traktor_beton.mp4" type="video/mp4" />
           Ваш браузер не поддерживает видео.
         </video>
-        <figcaption>Трактор разравнивает бетонный бой</figcaption>
+        <figcaption style={{ textAlign: 'center', fontSize: '0.9rem', color: '#555', marginTop: '8px' }}>Трактор разравнивает бетонный бой</figcaption>
       </figure>
 
       <h2>А потом пришли кроты</h2>
@@ -80,12 +137,24 @@ export default function BetonnyyBoyPage() {
 
       <p>Мы заливали в норы дёготь — вроде помогло. Теперь они не выходят на открытое пространство, но зато роют под морским контейнером, который стоит на блоках. Это уже не так критично, но осадочек, конечно, остался.</p>
 
-      <figure>
-        <video controls preload="metadata" style={{ width: '100%', maxWidth: '800px', height: 'auto', borderRadius: '8px' }}>
+      <figure style={{ margin: '20px 0' }}>
+        <video 
+          controls 
+          preload="metadata" 
+          style={{ 
+            width: '100%', 
+            maxWidth: '800px', 
+            height: 'auto', 
+            maxHeight: '450px', 
+            borderRadius: '8px', 
+            boxShadow: '0 2px 8px rgba(0,0,0,0.1)',
+            backgroundColor: '#000'
+          }}
+        >
           <source src="https://raw.githubusercontent.com/Bessonina/devdock-site/main/public/video/kroti.mp4" type="video/mp4" />
           Ваш браузер не поддерживает видео.
         </video>
-        <figcaption>Результат диверсии кротов на участке</figcaption>
+        <figcaption style={{ textAlign: 'center', fontSize: '0.9rem', color: '#555', marginTop: '8px' }}>Результат диверсии кротов на участке</figcaption>
       </figure>
 
       <h2>Что я понял и что посоветую</h2>
