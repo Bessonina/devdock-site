@@ -18,7 +18,12 @@ export default function RootLayout({
 }) {
   return (
     <html lang="ru">
-      <body>{children}</body>
+      <body>
+        {children}
+        <footer style={{ textAlign: 'center', padding: '20px', fontSize: '14px', color: '#888' }}>
+          ePN
+        </footer>
+      </body>
     </html>
   )
 }
