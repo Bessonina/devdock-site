@@ -8,7 +8,7 @@ export default function BetonnyyBoyPage() {
       {/* ФОТО АВТОРА (header.png) — ТВОЯ ВИЗИТКА */}
       <figure style={{ margin: '20px 0' }}>
         <img 
-          src="https://raw.githubusercontent.com/Bessonina/devdock-site/main/public/images/header.png" 
+          src="https://raw.githubusercontent.com/Bessonina/devdock-site/refs/heads/main/public/video/header.png" 
           alt="Самостройщик с дивана на фоне стройки" 
           style={{ width: '100%', maxWidth: '600px', height: 'auto', borderRadius: '8px', display: 'block', margin: '0 auto' }} 
         />
@@ -45,7 +45,7 @@ export default function BetonnyyBoyPage() {
       {/* ФОТО РУЛОНОВ ДОРНИТА */}
       <figure style={{ margin: '20px 0' }}>
         <img 
-          src="https://raw.githubusercontent.com/Bessonina/devdock-site/main/public/images/dornit_ruloni.jpg" 
+          src="https://raw.githubusercontent.com/Bessonina/devdock-site/refs/heads/main/public/video/dornit_ruloni.jpg" 
           alt="Рулоны геотекстиля Дорнит на участке" 
           style={{ width: '100%', maxWidth: '800px', height: 'auto', borderRadius: '8px', display: 'block', margin: '0 auto' }} 
         />
