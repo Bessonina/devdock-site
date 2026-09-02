@@ -1,3 +1,5 @@
+'use client'
+
 // app/betonnyy-boy/page.js
 export default function BetonnyyBoyPage() {
   return (
