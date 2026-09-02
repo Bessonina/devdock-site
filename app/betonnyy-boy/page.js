@@ -19,7 +19,6 @@ export default function BetonnyyBoyPage() {
           alt="Самостройщик с дивана на фоне стройки" 
           style={{ 
             width: '100%', 
-            maxWidth: '600px', 
             height: 'auto', 
             maxHeight: '450px', 
             objectFit: 'cover', 
@@ -64,7 +63,6 @@ export default function BetonnyyBoyPage() {
           preload="metadata" 
           style={{ 
             width: '100%', 
-            maxWidth: '800px', 
             height: 'auto', 
             maxHeight: '450px', 
             borderRadius: '8px', 
@@ -89,7 +87,7 @@ export default function BetonnyyBoyPage() {
 
       <h2 style={{ textAlign: 'center' }}>Технология: делаем "пирог"</h2>
       <p style={{ textAlign: 'left' }}>
-        Чтобы бетонный бой не ушёл в глину, я постелил геотекстиль «Дорнит» 400-й плотности. Материал очень прочный — по нему свободно ездили КАМАЗы, трактора и краны. Всё выдержал. Я пришпилил его колышками, но они не помогли — нахлесты геотекстиля всё равно разъехались. Тогда я подумал: "Ну, ерунда", и забил. А зря, как оказалось.
+        Чтобы бетонный бой не ушёл в глину, я постелил <a href="https://www.ozon.ru/product/geotekstil-dlya-drenazha-929879358/" target="_blank" rel="noopener noreferrer">геотекстиль «Дорнит» 400-й плотности</a>. Материал очень прочный — по нему свободно ездили КАМАЗы, трактора и краны. Всё выдержал. Я пришпилил его колышками, но они не помогли — нахлесты геотекстиля всё равно разъехались. Тогда я подумал: "Ну, ерунда", и забил. А зря, как оказалось.
       </p>
 
       {/* ФОТО РУЛОНОВ ДОРНИТА */}
@@ -99,7 +97,6 @@ export default function BetonnyyBoyPage() {
           alt="Рулоны геотекстиля Дорнит на участке" 
           style={{ 
             width: '100%', 
-            maxWidth: '800px', 
             height: 'auto', 
             maxHeight: '450px', 
             objectFit: 'cover', 
@@ -122,7 +119,6 @@ export default function BetonnyyBoyPage() {
           preload="metadata" 
           style={{ 
             width: '100%', 
-            maxWidth: '800px', 
             height: 'auto', 
             maxHeight: '450px', 
             borderRadius: '8px', 
@@ -142,11 +138,15 @@ export default function BetonnyyBoyPage() {
 
       <h2 style={{ textAlign: 'center' }}>Борьба с сорняками: две попытки</h2>
       <p style={{ textAlign: 'left' }}>
-        Перед укладкой геотекстиля я решил обработать почву, чтобы сорняки и борщевик не пробивались. Сначала я купил в "Леруа Мерлен" пестицид для уничтожения семян в почве. Зашёл и сказал: "Дайте то, что убьёт всё, чтобы даже семена не взошли". Обработал землю. Прошла неделя — и на голой земле уже торчали новые ростки борщевика. Этот метод не сработал совсем.
+        Перед укладкой геотекстиля я решил обработать почву, чтобы сорняки и борщевик не пробивались. Сначала я купил в <a href="https://www.leroymerlin.ru/" target="_blank" rel="noopener noreferrer">Лемана Про</a> пестицид для уничтожения семян в почве. Зашёл и сказал: "Дайте то, что убьёт всё, чтобы даже семена не взошли". Обработал землю. Прошла неделя — и на голой земле уже торчали новые ростки борщевика. Этот метод не сработал совсем.
       </p>
 
       <p style={{ textAlign: 'left' }}>
-        Тогда я попробовал другой подход. Взял гербицид, который наносится непосредственно на листья растений. Обработал все листья вокруг участка и те места, где уже пробивались ростки. Через неделю листья начали желтеть, а ещё через неделю — полностью засохли и пожухли. Гербицид сработал отлично. На видео как раз видно оба этапа: и обработка почвы, и обработка по листьям.
+        Тогда я попробовал другой подход. Взял <a href="https://www.ozon.ru/product/ankor-85-sredstvo-ot-sornyakov-borshchevika-sosnovskogo-i-nezhelatelnoy-rastitelnosti-540230109/" target="_blank" rel="noopener noreferrer">гербицид «Анкор-85»</a>, который наносится непосредственно на листья растений. Обработал все листья вокруг участка и те места, где уже пробивались ростки. Через неделю листья начали желтеть, а ещё через неделю — полностью засохли и пожухли. Гербицид сработал отлично. На видео как раз видно оба этапа: и обработка почвы, и обработка по листьям.
+      </p>
+
+      <p style={{ textAlign: 'left' }}>
+        Для работы с химией я использовал <a href="https://www.ozon.ru/product/respirator-polnolitsevoy-fixzilla-ot-pyli-himii-dlya-pokraski-stroitelnyy-professionalnyy-3478285881/" target="_blank" rel="noopener noreferrer">полнолицевой респиратор FixZilla</a> — он защищает от пыли и химии, и <a href="https://www.ozon.ru/product/sapogi-deepdive-dlya-pohoda-ohoty-i-rybalki-1580542290/" target="_blank" rel="noopener noreferrer">сапоги DeepDive</a>, которые я купил специально для этих работ, чтобы было удобно ходить по бетонному бою и не свернуть себе ноги.
       </p>
 
       {/* ВИДЕО: Обработка гербицидом (почва + листья) */}
@@ -156,7 +156,6 @@ export default function BetonnyyBoyPage() {
           preload="metadata" 
           style={{ 
             width: '100%', 
-            maxWidth: '800px', 
             height: 'auto', 
             maxHeight: '450px', 
             borderRadius: '8px', 
@@ -174,9 +173,17 @@ export default function BetonnyyBoyPage() {
         </figcaption>
       </figure>
 
+      <p style={{ textAlign: 'left' }}>
+        Для распыления я использовал <a href="https://www.ozon.ru/product/opryskivatel-sadovyy-akkumulyatornyy-keelat-20-l-2-batarei-4000-mach-elektricheskiy-raspylitel-3588320491/" target="_blank" rel="noopener noreferrer">аккумуляторный опрыскиватель KEELAT на 20 литров</a>. У него удобная длинная штанга (230 см) и автоматическое перемешивание раствора, чтобы химия не оседала на дно. Две батареи по 4000 мАч позволяют работать без подзарядки весь день. На видео видно, как я обрабатываю участок в белом костюме — это как раз он.
+      </p>
+
       <h2 style={{ textAlign: 'center' }}>Процесс и машины</h2>
       <p style={{ textAlign: 'left' }}>
         Бетонный бой засыпали. Трактор разровнял (10 000 рублей), потом я утрамбовал площадку катком (25 000 рублей). Соседи и проезжающие строители постоянно подходили: "Что ты тут делаешь? Мы никогда не видели, чтобы на личном участке так делали". Я шутил: "Парковку делаю". А потом объяснял, что не хочу газон.
+      </p>
+
+      <p style={{ textAlign: 'left' }}>
+        Для работы на участке я купил <a href="https://www.ozon.ru/product/botinki-rabochie-savel-titan-4031759388/" target="_blank" rel="noopener noreferrer">рабочие ботинки SAVEL Титан</a> — они с металлическим мыском, очень качественные, в них безопасно ходить по стройплощадке.
       </p>
 
       <figure style={{ margin: '20px 0', textAlign: 'center' }}>
@@ -185,7 +192,6 @@ export default function BetonnyyBoyPage() {
           preload="metadata" 
           style={{ 
             width: '100%', 
-            maxWidth: '800px', 
             height: 'auto', 
             maxHeight: '450px', 
             borderRadius: '8px', 
@@ -218,7 +224,6 @@ export default function BetonnyyBoyPage() {
           preload="metadata" 
           style={{ 
             width: '100%', 
-            maxWidth: '800px', 
             height: 'auto', 
             maxHeight: '450px', 
             borderRadius: '8px', 
