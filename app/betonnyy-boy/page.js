@@ -7,7 +7,7 @@ export default function BetonnyyBoyPage() {
       
       <h1>Как я укреплял участок бетонным боем вместо газона</h1>
       
-      {/* ФОТО АВТОРА (header.png) — ТВОЯ ВИЗИТКА */}
+      {/* ФОТО АВТОРА */}
       <figure style={{ margin: '20px 0', textAlign: 'center' }}>
         <img 
           src="https://raw.githubusercontent.com/Bessonina/devdock-site/refs/heads/main/public/video/header.png" 
@@ -110,6 +110,27 @@ export default function BetonnyyBoyPage() {
       </figure>
 
       <p>Перед геотекстилем я обработал землю пестицидом. Зашёл в "Леруа Мерлен" и сказал: "Дайте то, что убьёт всё, чтобы даже семена не взошли". Это не помогло. Через неделю после обработки на голой земле уже торчали новые ростки борщевика. А потом они уже под геотекстилем умудрялись поднимать его холмиками, пока их не задавил бетонный бой.</p>
+
+      {/* НОВОЕ ВИДЕО: Обработка участка гербицидом */}
+      <figure style={{ margin: '20px 0' }}>
+        <video 
+          controls 
+          preload="metadata" 
+          style={{ 
+            width: '100%', 
+            maxWidth: '800px', 
+            height: 'auto', 
+            maxHeight: '450px', 
+            borderRadius: '8px', 
+            boxShadow: '0 2px 8px rgba(0,0,0,0.1)',
+            backgroundColor: '#000'
+          }}
+        >
+          <source src="https://raw.githubusercontent.com/Bessonina/devdock-site/main/public/video/gerbicid.mp4" type="video/mp4" />
+          Ваш браузер не поддерживает видео.
+        </video>
+        <figcaption style={{ textAlign: 'center', fontSize: '0.9rem', color: '#555', marginTop: '8px' }}>Обработка участка гербицидом для уничтожения сорняков и борщевика</figcaption>
+      </figure>
 
       <h2>Процесс и машины</h2>
       <p>Бетонный бой засыпали. Трактор разровнял (10 000 рублей), потом я утрамбовал площадку катком (25 000 рублей). Соседи и проезжающие строители постоянно подходили: "Что ты тут делаешь? Мы никогда не видели, чтобы на личном участке так делали". Я шутил: "Парковку делаю". А потом объяснял, что не хочу газон.</p>
