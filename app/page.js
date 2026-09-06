@@ -28,17 +28,33 @@ export default function HomePage() {
           </p>
         </div>
 
-        {/* СТАТЬЯ 2 (заглушка) */}
+        {/* СТАТЬЯ 2 */}
+        <div style={{ margin: '30px 0', padding: '20px', border: '1px solid #eee', borderRadius: '8px' }}>
+          <h3 style={{ margin: '0 0 10px 0' }}>
+            <a href="/container-story" style={{ textDecoration: 'none', color: '#0070f3' }}>
+              Как я выбирал и покупал морской контейнер
+            </a>
+          </h3>
+          <p style={{ margin: '0', color: '#555' }}>
+            Зачем мне контейнер? Как я чуть не попал впросак с номером, 
+            почему 40-футовый дешевле 20-футового, и как газель может везти 40-футовый контейнер.
+          </p>
+          <p style={{ fontSize: '0.9rem', color: '#888', marginTop: '8px' }}>
+            Опубликовано: 6 сентября 2026
+          </p>
+        </div>
+
+        {/* СТАТЬЯ 3 (заглушка) */}
         <div style={{ margin: '30px 0', padding: '20px', border: '1px solid #eee', borderRadius: '8px', opacity: 0.6 }}>
           <h3 style={{ margin: '0 0 10px 0' }}>
             <span style={{ color: '#999' }}>Как я строю хозблок из морского контейнера (скоро)</span>
           </h3>
           <p style={{ margin: '0', color: '#888' }}>
-            Скоро здесь появится статья о том, как я превратил морской контейнер в гостевой домик.
+            Скоро здесь появится статья о том, как я обустраивал контейнер внутри: стеллажи, утепление, замок «Риф-1».
           </p>
         </div>
 
-        {/* СТАТЬЯ 3 (заглушка) */}
+        {/* СТАТЬЯ 4 (заглушка) */}
         <div style={{ margin: '30px 0', padding: '20px', border: '1px solid #eee', borderRadius: '8px', opacity: 0.6 }}>
           <h3 style={{ margin: '0 0 10px 0' }}>
             <span style={{ color: '#999' }}>Как я выбирал фундамент (скоро)</span>
