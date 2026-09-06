@@ -18,15 +18,8 @@ export default function RootLayout({
 }) {
   return (
     <html lang="ru">
-      <head>
-        {/* Мета-тег для ePN */}
-        <meta name="ePN" content="ePN" />
-      </head>
       <body>
         {children}
-        <footer style={{ textAlign: 'center', padding: '20px', fontSize: '14px', color: '#888' }}>
-          ePN
-        </footer>
 
         {/* Яндекс Метрика */}
         <Script
